@@ -3,15 +3,14 @@
 	"id": "working-since-birth",
 	"version": "1.0.0",
 	"name": "Working Since Birth",
-	"description": "Villagers Will Now Spawn With A Random Profession! Like The Old Versions!",
+	"description": "Villagers Will Now Retain a Random Profession Without the Need of Job Sites - Like the Old Versions!",
 	"authors": [
 		"legionoid"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/sirlegionoid/Working-Since-Birth-1.20.1.git"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/working-since-birth/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -23,8 +22,7 @@
 		]
 	},
 	"mixins": [
-		"working-since-birth.mixins.json",
-		"MixinVillagerEntity"
+		"working-since-birth.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
